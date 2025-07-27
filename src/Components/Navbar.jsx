@@ -22,7 +22,7 @@ export default function Navbar() {
   <div className="lg:hidden text-3xl cursor-pointer mr-8 md:text-slate-300 md:hover:text-white text-white" onClick={() => {
     const dropdown = document.getElementById('Dropdown');
     if (dropdown) {
-      dropdown.style.display = dropdown.style.display === 'none' ? 'block' : 'none';
+      dropdown.style.display = dropdown.style.display === 'none' ? 'none' : 'block';
     }
   }}>&#8801;</div>
 
