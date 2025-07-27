@@ -20,7 +20,7 @@ export default function Navbar() {
     <div className='w-20'><img src={Tejas} alt="" /></div>
   </div>
   <ul className="lg:flex hidden text-slate-300 cursor-pointer">
-    <li className="mx-3 hover:text-white"><a href="/">Home</a></li>
+    <li className="mx-3 hover:text-white"><a href="https://tejas-2829.github.io/Tejas-Portfolio/">Home</a></li>
     <li className="mx-3 hover:text-white"><a href="#HeroSection">About Us</a></li>
     <li className="mx-3 hover:text-white"><a href="#Skills">Skills</a></li>
     <li className="mx-3 hover:text-white"><a href="#Projects">Project</a></li>
