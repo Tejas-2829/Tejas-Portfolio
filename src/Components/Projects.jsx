@@ -1,5 +1,6 @@
 import React from 'react'
 import Bootstrap from '../assets/MyPortfolio.png'
+import VirtualR from '../assets/VirtualR.png'
 
 function Projects() {
   return (
@@ -11,13 +12,13 @@ function Projects() {
             crafted with modern technologies for seamless performance, aesthetics, and SEO optimization.</p>
         </div>
         <div className='md:flex md:gap-6 w-full p-2 cursor-pointer '>
-            <div className='md:w-2/4 flex flex-col text-center p-2 shadow-xl md:mb-0 mb-4'> <a href="https://github.com/Tejas-2829" target="_blank" rel="noopener noreferrer">
+            <div className='md:w-2/4 flex flex-col text-center p-2 shadow-xl md:mb-0 mb-4'> <a href="https://tejas-2829.github.io/Tejas-Portfolio/" target="_blank" rel="noopener noreferrer">
                 <img src={Bootstrap} alt="" className='w-fit rounded hover:scale-99 ease-initial'/>
-                <h1 className='mt-2 text-2xl font-bold hover:text-purple-800'>Bootstrap</h1>
+                <h1 className='mt-2 text-2xl font-bold hover:text-purple-800'>My Portfolio</h1>
             </a></div>
-            <div className='md:w-2/4 flex flex-col text-center p-2 shadow-xl'> <a href="https://github.com/Tejas-2829" target="_blank" rel="noopener noreferrer">
-                <img src={Bootstrap} alt="" className='w-fit rounded hover:scale-99 ease-initial'/>
-                <h1 className='mt-2 text-2xl font-bold hover:text-purple-800'>Bootstrap</h1>
+            <div className='md:w-2/4 flex flex-col text-center p-2 shadow-xl'> <a href="https://flourishing-pithivier-fba38c.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <img src={VirtualR} alt="" className='w-fit rounded hover:scale-99 ease-initial'/>
+                <h1 className='mt-2 text-2xl font-bold hover:text-purple-800'>VirtualR</h1>
             </a></div>
         </div>
     </div>
