@@ -20,7 +20,7 @@ export default function Navbar() {
     <div className='w-20'><img src={Tejas} alt="" /></div>
   </div>
   <ul className="lg:flex hidden text-slate-300 cursor-pointer">
-    <li className="mx-3 hover:text-white"><a href="https://tejas-2829.github.io/Tejas-Portfolio/">Home</a></li>
+    <li className="mx-3 hover:text-white"><a href="#">Home</a></li>
     <li className="mx-3 hover:text-white"><a href="#HeroSection">About Us</a></li>
     <li className="mx-3 hover:text-white"><a href="#Skills">Skills</a></li>
     <li className="mx-3 hover:text-white"><a href="#Projects">Project</a></li>
@@ -43,7 +43,7 @@ export default function Navbar() {
   {mobileDrawerOpen && (
   <div className="lg:hidden fixed right-0 top-20 z-10 bg-gradient-to-tr from-purple-950 via-purple-800 to-purple-600 w-full p-4 flex flex-col justify-center items-center text-white">
     <ul>
-      <li className="py-4"><a href="https://tejas-2829.github.io/Tejas-Portfolio/">Home</a></li>
+      <li className="py-4"><a href="#">Home</a></li>
       <li className="py-4"><a href="#HeroSection">About Us</a></li>
       <li className="py-4"><a href="#Skills">Skills</a></li>
       <li className="py-4"><a href="#Projects">Project</a></li>
