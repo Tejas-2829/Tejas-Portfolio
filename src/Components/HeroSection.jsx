@@ -11,7 +11,12 @@ function HeroSection() {
                 <p>Hello! I'm Tejas Naik, a creative web designer building visually appealing, SEO-friendly, and user-centric websites. 
                 I specialize in frontend design, website optimization and Canva-based branding to help businesses enhance their online presence.</p>
                <div className='mt-4'> 
-                <button className='bg-gradient-to-tr from-violet-950 via-violet-900 to-violet-600 p-2 md:text-slate-300 text-white hover:text-white rounded '>Download CV</button> 
+                <button className='bg-gradient-to-tr from-violet-950 via-violet-900 to-violet-600 p-2 md:text-slate-300 text-white hover:text-white rounded '><a 
+                    href="/Tejas-Naik-CV.pdf" 
+                    download="Tejas-Naik-CV" 
+                    className="btn"> 
+                    Download CV</a>
+                </button> 
                </div>
             </div>
         </div>
